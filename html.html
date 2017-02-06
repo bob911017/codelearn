@@ -5,7 +5,7 @@
 <link rel="icon" href="http://anohito.tw/poi/images/POI_01_B.png" type="image/x-icon">
 
 </head>
-<body>
+<body bgcolor='#e6ffe6'>
 <h1><a name="title">HTML</a></h1>
 
 <style>
@@ -17,12 +17,13 @@ p.pos_fixed{
 </style>
 <p class="pos_fixed"><a href="#title"><img src="http://comic.qq.com/images/comic/2008/01/02/april/tsj/016.gif"width="43" height="43"></a></p>
 
-<div style="text-align:left;background-color:#FFE4E1;padding:5px;margin-bottom:5px;"><h2><a name="a">簡介</a></h2></div>
-
+<hr>
+<h2><a name="a">簡介</a></h2>
+<p title='簡介'>
 HTML全名為HyperText Markup Language，是一種標示語言。其中的元素是建構網站的基石，可與CSS、JS搭配在網頁瀏覽器上產生各種不同的效果。
-
+</p>
 <ul>
-	<li><h3><a name='a0'>申請上傳空間</a></h3></li>
+	<li><h3><a name='a1'>申請上傳空間</a></h3></li>
 為了讓HTML在網路上運作，我們需要一個儲存HTML檔案的空間，這邊我利用的是名叫<a href='https://github.com/'STYLE="text-decoration:none" target="_blank" ><b>GitHub</b></a>的空間，使用方法如下:<br><br>
 	<ol>
     	<li>進入網站後申請帳號</li>
@@ -32,8 +33,32 @@ HTML全名為HyperText Markup Language，是一種標示語言。其中的元素
         <li>任意挑一個theme後，點Select theme</li>
         <li>將完成的HTML檔案上傳到Code分頁即完成上傳的作業</li>
         <li>連結的網址的格式為<b>https://帳號名.github.io/專案名/檔名</b></li>
-
 	</ol>
+    <li><h3><a name='a2'>格式</a></h3></li>
+    要使用HTML中的功能需要借助tag來標示，使用方法如下:<br>
+    <table border=1 width='350'height='40'>
+    	<td>&nbsp; &nbsp; &nbsp; &lt;starttag&gt; 內容 &lt;endtag&gt;</td></table>
+    <br><br>
+    通常starttag和endtag會成對出現，後者會比前者多一個forward slash「\」。如&lt;p&gt;...&lt;/p&gt;
+
+<li><h3><a name='a3'>結構</a></h3></li>
+<div style="width:99%;border:1px solid grey;padding:3px;margin:0;background-color:#ddd">&lt;html&gt;
+<div style="width:90%;border:1px solid grey;padding:3px;margin:20px">&lt;head&gt;
+<div style="width:90%;border:1px solid grey;padding:5px;margin:20px">&lt;title&gt;Page title&lt;/title&gt;
+</div>
+&lt;/head&gt;
+</div>
+<div style="width:90%;border:1px solid grey;padding:3px;margin:20px;background-color:#ddd">&lt;body&gt;
+<div style="width:90%;border:1px solid grey;padding:3px;margin:20px;background-color:#fff">
+<div style="width:90%;border:1px solid grey;padding:5px;margin:20px">&lt;h1&gt;This is a heading&lt;/h1&gt;</div>
+<div style="width:90%;border:1px solid grey;padding:5px;margin:20px">&lt;p&gt;This is a paragraph.&lt;/p&gt;</div>
+<div style="width:90%;border:1px solid grey;padding:5px;margin:20px">&lt;p&gt;This is another paragraph.&lt;/p&gt;</div>
+</div>
+&lt;/body&gt;
+</div>
+&lt;/html&gt;
+</div>
+
 </ul>
 
 
