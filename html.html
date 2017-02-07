@@ -21,10 +21,13 @@ p.pos_fixed{
 <h2><a name="a">簡介</a></h2>
 <p title='簡介'>
 HTML全名為HyperText Markup Language，是一種標示語言。其中的元素是建構網站的基石，可與CSS、JavaScript搭配在網頁瀏覽器上產生各種不同的效果。<br>
-本網頁主要參考<a href='http://www.w3schools.com/html/default.asp'STYLE="text-decoration:none" target="_blank" ><b>HTML Tutorial</b></a>，並使用<a href='http://www.w3schools.com/html/tryit.asp?filename=tryhtml_default'STYLE="text-decoration:none" target="_blank" ><b>線上轉譯工具</b></a>協助編寫。
+
 </p>
 <ul>
-	<li><h3><a name='a1'>申請上傳空間</a></h3></li>
+	<li><h3><a name='a1'>編輯工具與參考資料</a></h3></li>
+    編寫HTML只要打開<b>記事本</b>按照HTML的編寫格式編寫就行了，不過在儲存檔案的時候，需要將副檔名從原本預設的.txt，更改為.html。<br>
+    本網頁主要參考<a href='http://www.w3schools.com/html/default.asp'STYLE="text-decoration:none" target="_blank" ><b>HTML Tutorial</b></a>，並使用<a href='http://www.w3schools.com/html/tryit.asp?filename=tryhtml_default'STYLE="text-decoration:none" target="_blank" ><b>線上轉譯工具</b></a>協助編寫。
+	<li><h3><a name='a2'>申請上傳空間</a></h3></li>
 為了讓HTML在網路上運作，我們需要一個儲存HTML檔案的空間，這邊我利用的是名叫<a href='https://github.com/'STYLE="text-decoration:none" target="_blank" ><b>GitHub</b></a>的空間，使用方法如下:<br><br>
 	<ol>
     	<li>進入網站後申請帳號</li>
@@ -32,18 +35,18 @@ HTML全名為HyperText Markup Language，是一種標示語言。其中的元素
         <li>將Code選單切換至Settings</li>
         <li>尋找區塊 GitHub Pages中的Theme chooser點選choose a theme</li>
         <li>任意挑一個theme後，點Select theme</li>
-        <li>將完成的HTML檔案上傳到Code分頁即完成上傳的作業</li>
+        <li>將完成的HTML檔案上傳到Code選單中即完成上傳的作業</li>
         <li>連結的網址的格式為<b>https://帳號名.github.io/專案名/檔名</b></li>
 	</ol>
-    <li><h3><a name='a2'>格式</a></h3></li>
+    <li><h3><a name='a3'>格式</a></h3></li>
     要使用HTML中的功能需要借助tag來標示，使用方法如下:<br>
     <table border=1 width='350'height='40'>
     	<td>&nbsp; &nbsp; &nbsp; &lt;starttag&gt; 內容 &lt;endtag&gt;</td></table>
-    <br><br>
+    <br>
     通常starttag和endtag會成對出現，後者會比前者多一個forward slash「\」。如&lt;p&gt;...&lt;/p&gt;
 
-<li><h3><a name='a3'>結構</a></h3></li>
-HTML的基本架構如下表，其中&lt;head&gt; tag裡面可以控制頁面的標題，而平常網頁顯示的內容主要編寫在在&lt;body&gt; tag裡面。<br>
+<li><h3><a name='a4'>結構</a></h3></li>
+HTML的基本架構如下表，其中&lt;head&gt;裡面可以控制頁面的標題或整個網頁的統一格式，而平常網頁顯示的內容主要編寫在在&lt;body&gt;裡面。<br>
 <div style="width:99%;border:1px solid grey;padding:3px;margin:0;background-color:#ddd">&lt;html&gt;
 	<div style="width:90%;border:1px solid grey;padding:3px;margin:20px">&lt;head&gt;
 		<div style="width:90%;border:1px solid grey;padding:5px;margin:20px">&lt;title&gt;Page title&lt;/title&gt;
@@ -66,6 +69,28 @@ HTML的基本架構如下表，其中&lt;head&gt; tag裡面可以控制頁面的
 </ul>
 <hr>
 
+<h2><a name="b" href='http://www.w3schools.com/html/html_head.asp'STYLE="text-decoration:none" target="_blank" >&lt;head&gt;</a></h2>
+&lt;head&gt;是一個用來形容整個網頁的區塊，即整個網頁的主要編寫資訊都會包含在此區塊。其中包含&lt;title&gt;, &lt;link&gt;, &lt;style&gt;, &lt;meta&gt;, &lt;script&gt;, 和 &lt;base&gt;等tags可供使用。
+
+<ul>
+	<li><h3>title</h3></li>
+    可設定網頁的標題
+    <li><h3>link</h3></li>
+    用來控制網頁內與外部資源的關連，例如使用:<br>
+	&lt;link rel="icon" href="圖片網址" type="image/x-icon"&gt;<br>
+    就能設定標題的圖案 
+    <li><h3>style</h3></li>
+    用來定義網頁中各個tag所使用的style，可結合css中的<a href='http://www.w3schools.com/css/css_syntax.asp'STYLE="text-decoration:none" target="_blank" >class</a>一同使用
+	<li><h3>meta</h3></li>
+    提供搜尋引擎關於網頁頁面內的重要資訊
+	<li><h3>script</h3></li>
+    用來使用網頁 script 或是嵌入外部script
+    <li><h3>base</h3></li>
+	用來制定網頁內URL的目標
+</ul>
+<hr>
+
+<h2><a name="c">&lt;body&gt;</a></h2>
 
 </body>
 </html>
