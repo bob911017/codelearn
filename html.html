@@ -3,11 +3,6 @@
 <head>
 <title>HTML</title>
 <link rel="icon" href="http://anohito.tw/poi/images/POI_01_B.png" type="image/x-icon">
-
-</head>
-<body bgcolor='#e6ffe6'>
-<h1><a name="title">HTML</a></h1>
-
 <style>
 p.pos_fixed{
 	position:fixed;
@@ -15,6 +10,11 @@ p.pos_fixed{
 	right:5px;
 }
 </style>
+</head>
+
+<body bgcolor='#f6fff6'>
+<h1><a name="title">HTML</a></h1>
+
 <p class="pos_fixed"><a href="#title"><img src="http://comic.qq.com/images/comic/2008/01/02/april/tsj/016.gif"width="43" height="43"></a></p>
 
 <hr>
@@ -26,7 +26,7 @@ HTML全名為HyperText Markup Language，是一種標示語言。其中的元素
 <ul>
 	<li><h3><a name='a1'>編輯工具與參考資料</a></h3></li>
     編寫HTML只要打開<b>記事本</b>按照HTML的編寫格式編寫就行了，不過在儲存檔案的時候，需要將副檔名從原本預設的.txt，更改為.html。<br>
-    本網頁主要參考<a href='http://www.w3schools.com/html/default.asp'STYLE="text-decoration:none" target="_blank" ><b>HTML Tutorial</b></a>，並使用<a href='http://www.w3schools.com/html/tryit.asp?filename=tryhtml_default'STYLE="text-decoration:none" target="_blank" ><b>線上轉譯工具</b></a>協助編寫。
+    本網頁主要參考<a href='http://www.w3schools.com/html/default.asp'STYLE="text-decoration:none" target="_blank" ><b>HTML Tutorial</b></a>，並使用「<a href='http://www.w3schools.com/html/tryit.asp?filename=tryhtml_default'STYLE="text-decoration:none" target="_blank" ><b>線上轉譯工具</b></a>」協助編寫，網頁中使用到的顏色則可以使用<a href='http://www.w3schools.com/colors/colors_picker.asp'STYLE="text-decoration:none" target="_blank" >Color Picker</a>來調配。
 	<li><h3><a name='a2'>申請上傳空間</a></h3></li>
 為了讓HTML在網路上運作，我們需要一個儲存HTML檔案的空間，這邊我利用的是名叫<a href='https://github.com/'STYLE="text-decoration:none" target="_blank" ><b>GitHub</b></a>的空間，使用方法如下:<br><br>
 	<ol>
@@ -80,17 +80,22 @@ HTML的基本架構如下表，其中&lt;head&gt;裡面可以控制頁面的標�
 	&lt;link rel="icon" href="圖片網址" type="image/x-icon"&gt;<br>
     就能設定標題的圖案 
     <li><h3>style</h3></li>
-    用來定義網頁中各個tag所使用的style，可結合css中的<a href='http://www.w3schools.com/css/css_syntax.asp'STYLE="text-decoration:none" target="_blank" >class</a>一同使用
-	<li><h3>meta</h3></li>
-    提供搜尋引擎關於網頁頁面內的重要資訊
-	<li><h3>script</h3></li>
-    用來使用網頁 script 或是嵌入外部script
-    <li><h3>base</h3></li>
-	用來制定網頁內URL的目標
+    用來定義網頁中各個tag所使用的style，可結合css中的<a href='http://www.w3schools.com/css/css_syntax.asp'STYLE="text-decoration:none" target="_blank" >class</a>一同使用<br>
 </ul>
 <hr>
 
 <h2><a name="c">&lt;body&gt;</a></h2>
+如前所述，編寫網頁的內容主要在&lt;body&gt;這個tag中。&lt;body&gt;本身也有一些功能可供設定
+<ul>
+	<li>bgcolor設定網頁背景顏色
+    <li>background設定背景圖案
+</ul><hr>
+
+<h2><a name="d">&lt;p&gt;</a></h2>
+&lt;p&gt;指的是paragraph，其中可使用title這個元素設定整個斷落的標題。
+<hr>
+
+<h2><a name="e">&lt;a&gt;</a></h2>
 
 </body>
 </html>
