@@ -62,6 +62,7 @@ p.pos_fixed{
           <li><a href="#g1" STYLE="text-decoration:none">使用者輸入</a>
           <li><a href="#g2" STYLE="text-decoration:none">製作執行檔(exe)</a>
       </ul>
+      <li><a href="#ref" STYLE="text-decoration:none">參考資料</a>
   </h5></ul>
   </td>
 </table>
@@ -128,7 +129,7 @@ p.pos_fixed{
 	True<br><br>
 
 	<li><h3><a name='a4'>常見特殊運算符號</a></h3></li>
-	<table  width="300"border=1>
+	<table  width="400"border=1>
 		<td></td>
 		<td><b>符號形式</b></td>
 		<td><b>代表意義</b></td>
@@ -171,6 +172,16 @@ p.pos_fixed{
 		<td>a>=b</td>
 		<td>比較a是否大於等於b</td>
 		<tr>
+        <td rowspan=3 align=center>邏輯</td>
+        <td>A and B</td>
+		<td>A和B條件同時為true則輸出為true</td>
+		<tr>
+        <td>A or B</td>
+		<td>A和B條件其一為true則輸出為true</td>
+		<tr>
+        <td>A ^ B</td>
+		<td>A和B條件一為false一為true則輸出為true</td>
+        <tr>
 		<td rowspan=1 align=center>字串</td>
 		<td>'\n'</td>
 		<td>換行</td>
@@ -574,7 +585,7 @@ p.pos_fixed{
 		<a href="https://scontent-tpe1-1.xx.fbcdn.net/v/t31.0-8/15440344_1053675074741861_8285242432193006478_o.jpg?oh=d926bf1d665f8a1ceb3ae0a7ea28346a&oe=58F1A9AC" STYLE="text-decoration:none" target="_blank"><img src="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/15590177_1061359727306729_1717516064027129104_n.jpg?oh=82705140cc471df6994b3f49433fd4aa&oe=58F5F64A"></a><br><br>
 		點擊綠色框框的區塊，使用者就能給a一個數值(int, float...)或是字串(string)了<br><br>
 		另一方面，使用指令raw_input的話，不管輸入的東西是哪一種，他都會將這些東西轉成字串。範例如下:<br><br>
-		<li><h4>raw_input程式碼</h4></li><br>
+		<li><h4>raw_input程式碼</h4></li>
 		a=raw_input('type anything: ')<br>
 		print a,type(a)<br>
 		輸入<br> 
@@ -587,5 +598,15 @@ p.pos_fixed{
 	如果要將py檔轉成exe檔，可以使用py2exe和distutils.core這兩個函式庫，詳細操作可以參考這個兩個網頁(<a href="http://ghaouse.blogspot.tw/2011/09/py2exe.html" STYLE="text-decoration:none" target="_blank">ghaouse's site</a>和<a href="http://koko.ntex.tw/wordpress/build-python-exe-using-py2exe/" STYLE="text-decoration:none" target="_blank">Eason's Garage</a>)。
 </ul>
 
+
+<div style="text-align:left;background-color:#cccccc;padding:5px;margin-bottom:5px;"><h2><a name="ref">參考資料</a></h2></div>
+<ul>
+	<li><a href="https://docs.python.org/2/tutorial/" STYLE="text-decoration:none" target="_blank">The Python Tutorial</a>
+    <li><a href="http://scipy.org/" STYLE="text-decoration:none" target="_blank">scipy.org</a>
+    <li><a href="http://www.runoob.com/python/python-tutorial.html" STYLE="text-decoration:none" target="_blank">Python 基础教程</a>
+    <li><a href="http://vpython.org/" STYLE="text-decoration:none" target="_blank">Vpython</a>
+    <li><a href="https://www.tutorialspoint.com/python/index.htm" STYLE="text-decoration:none" target="_blank">python_tutorialspoint</a>
+    <li><a href="http://www-personal.umich.edu/~mejn/computational-physics/" STYLE="text-decoration:none" target="_blank">computational-physics with Python</a>
+</ul>
 </body>
 </html>
