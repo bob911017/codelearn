@@ -10,10 +10,10 @@
 p.pos_fixed{
 	position:fixed;
 	bottom:5px;
-	right:5px;
+	right:-480px;
 }
 </style>
-<p class="pos_fixed"><a href="#title"><img src="http://comic.qq.com/images/comic/2008/01/02/april/tsj/016.gif"width="43" height="43"></a></p>
+<p class="pos_fixed"><a href="#title"><img src="http://i.imgur.com/8z1EEgu.jpg"width="10%" height="10%"></a></p>
 
 <table border=1>
   <td><b>目錄</b>
@@ -79,7 +79,6 @@ p.pos_fixed{
 		<li>開啟安裝檔後，會進入Choose Users的介面，選擇Install just for me，接著點選Next
 		<li>進入Choose Components的介面後，將Select the type of install那一欄改為Full，點Next就開始安裝
 		<li>安裝完桌面應該會有<img src="http://python-xy.github.io/images/logo.png"width="50" height="25">，點開它
-		<li>開啟後會出現如下圖的視窗，選擇紅黑圖案的鈕進入python</li><a href='https://scontent.ftpe1-2.fna.fbcdn.net/v/t1.0-9/16266306_1095322690577099_6752668180104757599_n.jpg?oh=9d193cfa7d4736e050f2a5f1eabc5c72&oe=591A76B0' target="_blank"><img src="https://scontent.ftpe1-2.fna.fbcdn.net/v/t1.0-9/16265619_1095325320576836_2921744933234946721_n.jpg?oh=b175a4cf8e3edd08f32af8f683481e2c&oe=591888F1"></a>
 	</ol>
 
 	<li><h3><a name='a1'>基礎概念</a></h3></li>
@@ -496,8 +495,6 @@ p.pos_fixed{
 	plt.plot(x,y,'-o',label="note")<br>
 	plt.legend()<br>
 	plt.show()<br><br>
-	呈現的結果如附圖<br>
-	<a href="https://scontent.ftpe1-2.fna.fbcdn.net/v/t31.0-8/16178677_1095281523914549_1907602377216472550_o.jpg?oh=c752855efab63b6c645a3b9f1fdd2507&oe=590298D2" STYLE="text-decoration:none" target="_blank"><img src="https://scontent.ftpe1-2.fna.fbcdn.net/v/t1.0-0/s403x403/16299495_1095287740580594_5048218262484817135_n.jpg?oh=3302fe58b906328becb7fac6010b3f84&oe=59044F94"></a><br><br>
 	第一條指令裡的第一和第二個元素代表x座標與y座標，第三個元素代表畫線的方式是用圓圈標示點並用線相連，第四個元素代表這條線的標籤(圖中右上角那個框框中的東西)。
 	而為了要在圖中建立右上角那個框框，我們需要使用第二條指令來建立
 
@@ -542,9 +539,7 @@ p.pos_fixed{
 	</ul>
 
 	<li><h3><a name="f3">動畫(Vpython的使用)</a></h3></li>
-	要學習Vpython要怎麼用的話，基本上可以參考<b><a href="http://vpython.org/" STYLE="text-decoration:none" target="_blank">Vpython</a>、<a href="http://www.glowscript.org/docs/VPythonDocs/index.html" STYLE="text-decoration:none" target="_blank">Vpython Help</a>和<a href="http://tcjd71.wixsite.com/vpython" STYLE="text-decoration:none" target="_blank">VPhysics NTU</a></b>這些網站就好。裡面也沒什麼太難的技巧，就只是在將各種參數輸入模型裡就行。要特別注意的地方是，當你把vpython的視窗關閉的時侯，附圖中的藍色框框會切換成像是開始鈕的綠色三角形。<br>
-	<a href="https://scontent.xx.fbcdn.net/v/t31.0-8/15625993_1060731567369545_8664764688851898907_o.jpg?oh=ef97a186f36f6be88fce75cfa1e2f50d&oe=59282042" STYLE="text-decoration:none" target="_blank"><img src="https://scontent.xx.fbcdn.net/v/t1.0-9/15284085_1061375057305196_6420006542766581879_n.jpg?oh=8953ab0996eae1b3c0126628f36adb9e&oe=592954C0"></a><br><br>
-	如果要再次執行程式碼的話，只要點下那個三角形，切換成橘色三角形就可以了!<br>
+	要學習Vpython要怎麼用的話，基本上可以參考<b><a href="http://vpython.org/" STYLE="text-decoration:none" target="_blank">Vpython</a>、<a href="http://www.glowscript.org/docs/VPythonDocs/index.html" STYLE="text-decoration:none" target="_blank">Vpython Help</a>和<a href="http://tcjd71.wixsite.com/vpython" STYLE="text-decoration:none" target="_blank">VPhysics NTU</a></b>這些網站就好。裡面也沒什麼太難的技巧，就只是在將各種參數輸入模型裡就行。<br><br>
 	另外，<a href="http://vpython.org/contents/contributed.html" STYLE="text-decoration:none" target="_blank"><b>這邊</b></a>有其他人做的模型可以提供參考。<br><br>
 	範例程式:<br><br>
 	from visual import *<br>
@@ -582,7 +577,7 @@ p.pos_fixed{
 		a=input('type anything: ')<br>
 		print a,type(a)<br>
 		使用方法及結果如圖<br>
-		<a href="https://scontent-tpe1-1.xx.fbcdn.net/v/t31.0-8/15440344_1053675074741861_8285242432193006478_o.jpg?oh=d926bf1d665f8a1ceb3ae0a7ea28346a&oe=58F1A9AC" STYLE="text-decoration:none" target="_blank"><img src="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/15590177_1061359727306729_1717516064027129104_n.jpg?oh=82705140cc471df6994b3f49433fd4aa&oe=58F5F64A"></a><br><br>
+		<a href="https://scontent.ftpe1-1.fna.fbcdn.net/v/t31.0-8/15440344_1053675074741861_8285242432193006478_o.jpg?oh=1bf8943eb7d1b0655fb29f6f65c44f97&oe=5A0684AC" STYLE="text-decoration:none" target="_blank"><img src="https://scontent.ftpe1-1.fna.fbcdn.net/v/t1.0-9/15590177_1061359727306729_1717516064027129104_n.jpg?oh=6ff8a23abc0af15ff75d5ec3cfc0f07a&oe=5A0AD14A"></a><br><br>
 		點擊綠色框框的區塊，使用者就能給a一個數值(int, float...)或是字串(string)了<br><br>
 		另一方面，使用指令raw_input的話，不管輸入的東西是哪一種，他都會將這些東西轉成字串。範例如下:<br><br>
 		<li><h4>raw_input程式碼</h4></li>
